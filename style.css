@@ -1,0 +1,59 @@
+/* general styles */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f1f1f1;
+	margin: 0;
+	padding: 0;
+}
+
+/* header styles */
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+header h1 {
+	margin: 0;
+}
+
+header nav {
+	margin-top: 10px;
+}
+
+header nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+header nav li {
+	margin-right: 20px;
+}
+
+header nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+header nav a:hover {
+	text-decoration: underline;
+}
+
+/* article styles */
+article {
+	background-color: #fff;
+	padding: 20px;
+	margin: 20px;
+}
+
+article h2 {
+	margin-top: 0;
+}
+
+article p {
+	line-height: 1.5;
+}
+
+/*
